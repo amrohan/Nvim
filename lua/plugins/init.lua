@@ -29,6 +29,7 @@ return {
         "angular-language-server",
         "gopls",
         "typescript-language-server",
+        "csharp_ls",
       },
     },
   },

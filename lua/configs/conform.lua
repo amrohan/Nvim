@@ -28,6 +28,7 @@ local options = {
     css = { { "prettierd", "prettier" } },
     scss = { { "prettierd", "prettier" } },
     go = { { "prettierd", "prettier" } },
+    cs = { { "prettierd", "prettier" } },
   },
 
   format_on_save = {
