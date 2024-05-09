@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
-    -- event = 'BufWritePre', -- uncomment for format on save
+    event = 'BufWritePre', -- uncomment for format on save
     config = function()
       require "configs.conform"
     end,
@@ -35,7 +35,11 @@ return {
   	opts = {
   		ensure_installed = {
   			"vim", "lua", "vimdoc",
-       "html", "css"
+        "html",
+        "css",
+        "javascript",
+        "typescript",
+        "tsx",
   		},
   	},
   },
