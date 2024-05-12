@@ -11,6 +11,9 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
+-- use this only of running on windows
+vim.opt.shell = "cmd.exe"
+
 local lazy_config = require "configs.lazy"
 
 -- load plugins
