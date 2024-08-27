@@ -5,7 +5,6 @@ local options = {
     },
   },
   formatters_by_ft = {
-
     lua = { "stylua" },
     svelte = { { "prettierd", "prettier" } },
     javascript = { { "prettierd", "prettier" } },
@@ -37,5 +36,4 @@ local options = {
     lsp_fallback = true,
   },
 }
-
 require("conform").setup(options)
