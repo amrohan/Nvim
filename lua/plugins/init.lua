@@ -30,6 +30,7 @@ return {
         "gopls",
         "typescript-language-server",
         "csharp_ls",
+        "tailwindcss-language-server",
       },
     },
   },
