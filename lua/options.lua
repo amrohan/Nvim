@@ -5,5 +5,5 @@ require "nvchad.options"
 -- local o = vim.o
 -- o.cursorlineopt ='both' -- to enable cursorline!
 local o = vim.o
-o.foldmethod = "expr"
+o.foldmethod = "indent"
 o.foldexpr = "nvim_treesitter#foldexpr()"
